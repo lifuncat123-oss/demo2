@@ -1,8 +1,3 @@
-import streamlit as st
-
-st.write("Hello")
-
-st.write("Hello")
 
 import streamlit as st
 import pandas as pd
