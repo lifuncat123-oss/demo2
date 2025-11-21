@@ -1,0 +1,16 @@
+tab1, tab2, tab3 = st.tabs(["Sales Data", "Customer Insights", "Market Trends"])
+with tab1:
+    st.write("Content for Sales Data")
+    sales_data = { ... }
+    for quarter, revenue in sales_data.items():
+        st.write(f"{quarter}: {revenue}")
+with tab2:
+    st.write("Content for Customer Insights")
+    customer_feedback = [ ... ]
+    for feedback in customer_feedback:
+        st.write(f"- {feedback}")
+with tab3:
+    st.write("Content for Market Trends")
+    market_trends = { ... }
+    for trend, status in market_trends.items():
+        st.write(f"{trend}: {status}")
