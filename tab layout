@@ -1,3 +1,13 @@
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# -------------------------------
+# Title and Description
+# -------------------------------
+st.title("📊 Business Sales Dashboard")
+st.write("Analyze monthly sales data interactively!")
 tab1, tab2, tab3 = st.tabs(["Sales Data", "Customer Insights", "Market Trends"])
 with tab1:
     st.write("Content for Sales Data")
